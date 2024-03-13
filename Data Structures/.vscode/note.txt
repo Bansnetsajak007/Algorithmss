@@ -1,0 +1,11 @@
+#very important thin to remember
+
+printf("%d", (4/16)); what will be the output of this code
+
+The output of this code will be "0". This is because both 4 and 16 are integers and when you divide two integers in c, it truncates the decimal places and only returns the quotient as integer. So the expression 4/16 will be evaluated as 0, because 4 divided by 16 equals 0.25, but only the integer part of the result is kept.
+
+If you want to get the actual floating point value of 4/16, you should cast one of the values to float before performing the division, like this:
+
+Copy code
+printf("%f", (4.0/16));
+This will output 0.25 as the output.

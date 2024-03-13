@@ -1,0 +1,2 @@
+so if the array is already sorted then it returns the particular sorted arry just in one pass means i will jus be zero but j iterates first round till 
+condition matches

@@ -1,0 +1,9 @@
+abstract data types are basically nothing they are just like other data types int,float but  main difference is that in abstract data
+types we create our own methods and operations.
+
+its kind of custamized data types
+
+
+rotation in avl trees
+
+no matter what rotation is always performed on three nodes no matter what the height of tree

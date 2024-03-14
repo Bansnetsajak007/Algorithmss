@@ -1,3 +1,5 @@
+//Array implementation
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -65,17 +67,16 @@ int bottom(struct stack* ptr){
 
 
 int main() {
-//   struct stack *s = (struct stack *)malloc(sizeof(struct stack));
   struct stack *s;
   s->size = 5;
   s->top = -1;
   s->arr = (int *)malloc(s->size * sizeof(int));
 
-  // push(s, 5);  //bottom most element of stack 
+  push(s, 5);  //bottom most element of stack 
   push(s, 8);
   push(s, 12);
   push(s, 17);
-  // push(s, 23); //topmost element of stack
+  push(s, 23); //topmost element of stack
 
 
 

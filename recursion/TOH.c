@@ -12,7 +12,7 @@ void towerOfHanoi(int n, char source, char destination, char auxiliary) {
 }
 
 int main() {
-    int n = 3; 
+    int n = 100; 
     towerOfHanoi(n, 'A', 'C', 'B');
     return 0;
 }

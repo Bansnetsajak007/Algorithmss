@@ -31,7 +31,7 @@ void bubbleSort(int* A, int n){
 
 int main(){
     // int A[]= {12,69,1,7,4,5};
-    int A[]= {100,23,85,2,45,1,0,96,3,4,7,6};
+    int A[]= {5,2,8,7,1};
     // int A[]={1,2,3,4,5};
     // int A[] = {1,3,2,6,4};
     int n = sizeof(A) / sizeof(A[0]);

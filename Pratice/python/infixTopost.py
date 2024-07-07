@@ -27,6 +27,6 @@ def infix_to_postfix(expression):
     
     return ''.join(output)  # converting to string
 
-expression_ = "((A-(B+C))*D)$(E+F)"
+expression_ = "(P+(Q*R(S/TU$V)*W)*X)"
 print("Infix Expression:", expression_)
 print("Postfix Expression:", infix_to_postfix(expression_))
